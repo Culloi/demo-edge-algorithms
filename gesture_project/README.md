@@ -49,3 +49,7 @@ The UI provides **Open Camera**, **Local Image**, **Full Screen**, and **Quit**.
 Set a valid authorization code through `GESTURE_AUTH_CODE` or replace the `XXXX` placeholder in `run.sh`; `XXXX` is not a valid code. `run.sh` also sets `GESTURE_LICENSE_FILE` to the project-local `authorization.lic`. On successful activation, the SDK may create `authorization.lic` and `ql_ans_license.txt` in the project directory. Keep the directory writable by the runtime user and retain these device-bound files between runs; do not copy them to another device or commit them.
 
 The SDK's 30-minute algorithm trial is available only when authorization returns `100010` and the SDK confirms that the authorization server is unreachable. Empty codes and online-invalid codes are rejected by the default strict configuration.
+
+## Reporting Issues
+
+If you encounter any issues during use, please submit technical inquiries on the [Quectel Official Forum](https://forumschinese.quectel.com/c/quectel-pi/58). Our technical support team will respond promptly. Feel free to submit Issues and Pull Requests to improve this project.

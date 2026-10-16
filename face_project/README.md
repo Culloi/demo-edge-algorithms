@@ -57,3 +57,7 @@ Reference images in `facedb/` are loaded at startup, using filename stems as nam
 `run.sh` uses `XXXX` as a placeholder, not a valid code. Set `FACE_AUTH_CODE` or replace the placeholder locally; never commit a real code. Defaults are `FACE_MODULE=3` (RK3576), `FACE_APP_ID=145`, and `FACE_LICENSE_FILE=$ROOT/face_license.ini`, where `ROOT` is the project directory. The code, app ID, and `FaceRecognition` resource entitlement must match.
 
 Verify `alg_status=0` and `auth_status=0` in the startup `[init]` line. Model initialization or an open window alone does not confirm authorization. The SDK prefers a valid device-bound local license on subsequent launches, so successful reuse does not prove that a newly supplied code can activate online. Keep the license file between runs and do not copy it to another device.
+
+## Reporting Issues
+
+If you encounter any issues during use, please submit technical inquiries on the [Quectel Official Forum](https://forumschinese.quectel.com/c/quectel-pi/58). Our technical support team will respond promptly. Feel free to submit Issues and Pull Requests to improve this project.

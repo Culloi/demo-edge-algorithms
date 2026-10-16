@@ -57,3 +57,7 @@ FACE_AUTH_CODE='your-authorized-code' ./run.sh
 `run.sh` 中的 `XXXX` 仅为占位符，不是有效授权码。请设置 `FACE_AUTH_CODE`，或在本地替换占位符；不要提交真实授权码。默认配置为 `FACE_MODULE=3`（RK3576）、`FACE_APP_ID=145`、`FACE_LICENSE_FILE=$ROOT/face_license.ini`，其中 `ROOT` 是工程目录。授权码、应用 ID 和 `FaceRecognition` 资源许可必须匹配。
 
 检查启动 `[init]` 行是否同时满足 `alg_status=0`、`auth_status=0`。模型初始化或窗口打开不代表授权成功。后续启动优先验证有效的设备绑定本地授权件，因此复用成功不代表新提供的授权码可以在线激活。请保留授权文件，不要复制到其他设备。
+
+## 报告问题
+
+如在使用过程中遇到问题，欢迎在[移远官方论坛](https://forumschinese.quectel.com/c/quectel-pi/58) 提交技术咨询，我们的技术支持团队将及时为您解答。 欢迎提交Issue和Pull Request来改进此项目。

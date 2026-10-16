@@ -47,3 +47,7 @@ cd "$HOME/gesture_project"
 请通过环境变量 `GESTURE_AUTH_CODE` 提供有效授权码，或将 `run.sh` 中的 `XXXX` 替换为有效码。`XXXX` 只是占位符，不能用于授权。脚本将 `GESTURE_LICENSE_FILE` 指向工程目录下的 `authorization.lic`。授权成功后 SDK 可能生成 `authorization.lic` 和 `ql_ans_license.txt`；请保留这两个设备绑定文件，确保运行用户可写工程目录，不要复制到其他设备或提交到仓库。
 
 SDK 仅在授权校验返回 `100010` 且确认授权服务器不可达时提供 30 分钟算法试用。空授权码或在线无效码在默认严格配置下会导致初始化失败。
+
+## 报告问题
+
+如在使用过程中遇到问题，欢迎在[移远官方论坛](https://forumschinese.quectel.com/c/quectel-pi/58) 提交技术咨询，我们的技术支持团队将及时为您解答。 欢迎提交Issue和Pull Request来改进此项目。
