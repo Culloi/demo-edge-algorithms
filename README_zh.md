@@ -1,4 +1,4 @@
-# Quectel Pi AI 算法 Demo
+# Quectel Pi 算法 Demo
 
 [English](README.md) | [简体中文](README_zh.md)
 
@@ -16,3 +16,7 @@
 请进入对应 Demo 目录，按照其中的 README 准备设备环境、获取所需 SDK，并执行编译和运行步骤。各算法 Demo 的 SDK、依赖和授权要求可能不同，请以各自文档为准。
 
 本仓库用于提供示例代码，不包含厂商 SDK、专有运行库、模型或设备授权信息。请通过授权渠道获取相关资源，不要将授权码、授权文件或人脸等敏感数据提交到仓库。
+
+## 报告问题
+
+如在使用过程中遇到问题，欢迎在[移远官方论坛](https://forumschinese.quectel.com/c/quectel-pi/58) 提交技术咨询，我们的技术支持团队将及时为您解答。 欢迎提交Issue和Pull Request来改进此项目。
