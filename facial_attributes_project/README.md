@@ -26,3 +26,7 @@ Use **Save Result** to export the current annotated image and its JSON results t
 
 The SDK does not provide landmarks, face recognition, liveness or mask detection on this platform. These are not simulated. Use only bundled OpenCV world 4.2.0 to avoid ABI conflicts.
 
+## Reporting Issues
+
+If you encounter any issues during use, please submit technical inquiries on the [Quectel Official Forum](https://forumschinese.quectel.com/c/quectel-pi/58). Our technical support team will respond promptly. Feel free to submit Issues and Pull Requests to improve this project.
+
