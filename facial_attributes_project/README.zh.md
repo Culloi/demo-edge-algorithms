@@ -2,6 +2,8 @@
 
 面向 Quectel Pi M2（RK3576 / Debian aarch64）的 Qt5 桌面项目。项目结构和三栏界面参考 `face_project`，使用 RK3576 Linux 人脸属性 SDK 的公开接口，不修改 SDK 或授权逻辑。
 
+![人脸属性检测效果](assets/facial_attributes.png)
+
 ## 功能
 
 - USB 摄像头实时采集，自动排除 ISP 节点，也可指定设备节点或索引。
